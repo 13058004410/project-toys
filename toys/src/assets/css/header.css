@@ -1,0 +1,85 @@
+/* 公共页头 */
+#header{
+  width:1349px;
+  height:196px;
+  background:#f3ecd5;
+  margin-right:0;
+  }
+
+
+/* 玩具logo */
+#header>img:nth-child(1){
+  width:192px;
+  height:61px;
+  display:block;
+  position:absolute;
+  top:52px;
+  left:125px;
+}
+
+
+/* 白云 */
+#header>img:nth-child(2){
+  width:80px;
+  height:55px;
+  display:block;
+  position:absolute;
+  top:10px;
+  left:340px;
+}
+
+/* 白云 */
+#header>img:nth-child(3){
+  width:167px;
+  height:31px;
+  display:block;
+  position:absolute;
+  top:85px;
+  left:423px;
+}
+
+
+
+/* 导航栏 */
+.navbar{
+  width:760px;
+  height:64px;
+  top:116px;
+  left:395px;
+  display:block;
+  margin-right:0;
+  border-radius:10rem;
+}
+
+.navbar a {
+  color:grey;
+  text-decoration:none;
+}
+
+
+
+
+/* 登陆按钮 */
+.login{
+  position:absolute;
+  width:200px;
+  height:100px;
+  top:25px;
+  right:10px; 
+}
+
+.login>a>button{
+  display:block;
+  width:100px;
+  height:40px;
+  border-radius:0.5rem;
+  outline:none;
+  background:#61519f;
+  color:#fff;
+}
+
+.login>a{
+  text-decoration:none;
+  font-weight:bold;
+  
+}

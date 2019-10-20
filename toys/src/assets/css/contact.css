@@ -1,0 +1,156 @@
+*{margin:0;padding:0}
+
+/* 主体部分 */
+#c-d1{
+  width:1349px;
+  height:868px;
+  background:#f3ecd5;
+}
+
+/* 面包屑导航条下边的白色区域 */
+#c-d2{
+  width:1030px;
+  height:534px;
+  background:white;
+  position: relative;
+  top:20px;
+  left:160px;
+  border-radius:20px;
+  padding-left:40px;
+  padding-top:25px;
+}
+/* 白色区域里边的表单 */
+#c-d21{
+  width:710px;
+  height:432px;
+}
+#c-d21>button{
+  width:100px !important;
+  border-radius:20px;
+}
+#c-d21>h3{
+  font-size:35px;
+  margin-bottom:25px;
+}
+
+/* 电话号码 */
+#c-d22{
+  width:230px;
+  height:100px;
+  position: absolute;
+  top:150px;
+  left:777px;
+}
+#c-d22>p:nth-child(1){
+  font-size:25px;
+  font-weight:bold;
+}
+
+/* 文本域 */
+#c-d21>form>div textarea{
+  height:200px !important;
+  resize:horizontal;
+}
+
+/* 下边白色区域4个小div */
+  /* 最外层白色大div */
+  #c-d3{
+    width:1349px;
+    height:200px;
+    background:white;
+    position: relative;
+    top:80px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:46px 142px 0 142px;
+  }
+  
+  /* 4个小div */
+  #c-d3>div{
+    width:250px;
+    height:110px;
+    padding-top:20px;
+    border:1px solid #eee;
+    background:#eee;
+    padding-left:16px;
+    border-radius:20px;
+  }
+  
+  /* 小div里边的第二个span */
+  #c-d3>div span:nth-child(3){
+    color:#999;
+  }
+  
+  /* 红色齿轮那个小div */
+  #c-d3>div:nth-child(1)>img{
+    margin-top:10px;
+  }
+  #c-d3>div:nth-child(1) span:nth-child(1){
+    display:block;
+    color:red;
+    float:right;
+    margin-right:88px;
+  }
+  #c-d3>div:nth-child(1) span:nth-child(2){
+    display:block;
+    margin-bottom:10px;
+    float:right;
+  }
+  
+  
+  
+  /* 绿色飞机那个div */
+  #c-d3>div:nth-child(2)>img{
+    margin-top:8px;
+  }
+  #c-d3>div:nth-child(2) span:nth-child(1){
+    display:block;
+    color:#2ee0b7;
+    float:right;
+    margin-right:88px;
+  }
+  
+  
+  /* 蓝色汽车那个div */
+  #c-d3>div:nth-child(3)>img{
+    margin-top:10px;
+  }
+  
+  #c-d3>div:nth-child(3) span:nth-child(1){
+    display:block;
+    color:#489dd6;
+    float:right;
+    margin-right:88px;
+  }
+  
+  /* 紫色轮船那个div */
+  #c-d3>div:nth-child(4)>img{
+    margin-top:7px;
+  }
+  #c-d3>div:nth-child(4) span:nth-child(1){
+    display:block;
+    color:#7e57cc;
+    float:right;
+    margin-right:72px;
+  }
+  
+  /* 第三级小div */
+  #c-d3 div div{
+    width:120px;
+    height:50px;
+    float:right;
+    margin-right:60px;
+    margin-top:8px;
+  }
+
+  /* 下面横条白云 */
+  #c-d4{
+    width:1349px;
+    height:50px;
+    background:url(../../../public/img/pie3.png);
+    transform:rotate(180deg);
+    position: relative;
+    top:60px;
+    left:0px;
+  }

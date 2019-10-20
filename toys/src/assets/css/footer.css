@@ -1,0 +1,71 @@
+
+/* 页面底部样式 */
+#footer{
+  width:1349px;
+  height:320px;
+  background:#49408e;
+  padding-top:50px;
+}
+
+/* 第二层div */
+.container{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  color:#fff;
+}
+
+/* 容器里面4个div */
+.container div{
+  width:293px;
+  height:221px;
+  padding:15px;
+}
+
+.container h4{
+  margin-bottom:15px;
+}
+
+.container ul{
+  list-style:none;
+}
+
+.container ul li{
+  border-bottom:1px dashed #645c9f;
+}
+
+.container a{
+  text-decoration:none;
+  font-size:14px;
+  color:#fff;
+  display:block;
+  margin-bottom:10px;
+}
+
+#footer>div:nth-child(2){
+  background:#3e3777;
+  width:1349px;
+  height:55px;
+  position: relative;
+  bottom:-40px;
+  padding-top:15px;
+}
+
+#footer>div:nth-child(2)>p{ 
+  font-size:16px;
+  color:#fff;
+  padding-left:136px;
+}
+
+/* 关注我们 */
+.ul4 img{
+  width:35px;
+  height:35px;
+  border:1px solid #645c9f;
+  padding:5px;
+  margin-right:10px;
+}
+
+.container .ul4 li{
+  border:0;
+}

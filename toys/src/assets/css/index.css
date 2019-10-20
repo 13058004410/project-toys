@@ -1,0 +1,170 @@
+*{margin:0;padding:0}
+
+
+/* main div */
+#main{
+  background:
+}
+
+#main>div:nth-child(1){
+  background:#f3ecd5;
+  height:495px;
+}
+
+/* 轮播图 */
+#lunbo{
+  margin-left:100px;
+  background:#f3ecd5;
+}
+
+#lunbo .carousel-item img{
+  width:1140px;
+  height:395px;
+}
+
+/* 轮播图上面的白云 */
+.cloud0{
+  background:url(../../../public/img/bg-logo.png) repeat;
+  width:198px;
+  height:131px;
+  position:absolute;
+  top:232px;
+  left:1014px;
+}
+
+.cloud1{
+  background:url(../../../public/img/bg-logo.png) ;
+  background-size:contain;
+  width:124px;
+  height:82px;
+  position:absolute;
+  top:390px;
+  left:855px;
+}
+
+.cloud2{
+  background:url(../../../public/img/bg-logo.png) ;
+  background-size:contain;
+  width:80px;
+  height:53px;
+  position:absolute;
+  top:197px;
+  left:342px;
+}
+
+.cloud3{
+  background:url(../../../public/img/bv.png) ;
+  background-size:contain;
+  width:190px;
+  height:119px;
+  position:absolute;
+  top:197px;
+  left:114px;
+}
+
+/* 轮播图下边的白云 */
+.cloud4{
+  background:url(../../../public/img/pie3.png);
+  width:1349px;
+  height:61px;
+  margin-top:70px;
+}
+
+/* 第一排关联商品 */
+#d1{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  background:#fff;
+  padding-top:50px;
+  padding-left:55px;
+  padding-right:77px;
+}
+
+#d1 div{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
+#d1 div a:nth-child(1){
+  text-decoration:none;
+}
+#d1 div a:nth-child(2){
+  display:block;
+  width:100px;
+  height:30px;
+  margin-left:70px;
+  color:#000;
+  text-decoration:none;
+}
+
+/* 第二排关联商品 */
+#ul{
+  overflow:hidden;
+  width:910px;
+  height:150px;
+  background:#fff;
+  margin-top:122px;
+  margin-left:220px; 
+}
+
+#ul>ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  list-style-type:none;
+  animation:productlist 6s linear infinite alternate;
+  animation-delay:2s;
+}
+/* 
+@keyframes productlist{
+  0%{transform:translateX(0px)}
+  25%{transform:translateX(0px)}
+  55%{transform:translateX(223px)}
+  55%{transform:translateX(223px)}
+  80%{transform:translateX(0px)}
+  85%{transform:translateX(0px)}
+  90%{transform:translateX(-223px)} 
+  100%{transform:translateX(-223px)} 
+} */
+
+@keyframes productlist{
+  0%{transform:translateX(0px)}
+  10%{transform:translateX(0px)}
+  25%{transform:translateX(-223px)}
+  50%{transform:translateX(0px)}
+  60%{transform:translateX(0px)}
+  75%{transform:translateX(223px)} 
+  100%{transform:translateX(0px)} 
+}
+
+
+
+
+/* toyplus新闻 */
+#news{
+  width:1140px;
+  height:311px;
+  float:left;
+  margin-left:100px;
+}
+
+#news h1{
+  text-align:center;
+}
+
+#news div{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+#news div a{
+  text-decoration:none;
+  color:#000;
+  font-family:Roboto,sans-serif;
+  cursor:pointer;
+  font-size:16px;
+  margin:4px;
+}
+

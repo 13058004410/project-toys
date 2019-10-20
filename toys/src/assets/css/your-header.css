@@ -1,0 +1,153 @@
+#y-header{
+  width:1349px;
+  height:230px;
+  background: #f3ecd5;
+}
+
+/* 搜索条 */
+#y-d1{
+  position: relative;
+  top:20px;
+  left:510px;
+  width:310px;
+  height:55px;
+}
+.sear1{
+  width:263px;
+  height:45px;
+  border-radius:20px;
+  outline: white;
+  box-shadow: white;
+  border:0;
+  padding:10px 20px;
+  color:#757575;
+}
+.btn1{
+  width:35px;
+  height:35px;
+  border-radius:20px;
+  border:0;
+  display:block;
+  position: relative;
+  top:-40px;
+  left:222px;
+  background:#f3ecd5;
+  
+}
+
+#y-d1>img{
+  position: relative;
+  top:-70px;
+  left:230px;
+}
+
+/* 左边白云 */
+#y-d2{
+  width:80px;
+  height:55px;
+  position: relative;
+  background:url(../../../public/img/bg-logo.png);
+  background-size:80px 55px;
+  top:-40px;
+  left:370px;
+}
+
+/* 玩具logo */
+#y-d3{
+  width:192px;
+  height:61px;
+  position: relative;
+  top:-35px;
+  left:180px;
+  background:url(../../../public/img/logo.png) no-repeat;
+  background-size:90% 90%;
+}
+
+/* 右边登陆下拉菜单 */
+#y-d31{
+  width:380px;
+  position: relative;
+  top:-144px;
+  left:830px;
+}
+#y-d31 button{
+  outline:none;
+}
+
+/* 右边下拉菜单 */
+#y-d4{
+  width:400px;
+  top:-140px;
+  right:-930px;
+}
+.dropdown>button:nth-child(1){
+  width:109px;
+  height:38px;
+  border:1px solid transparent;
+  border-radius:20px;
+  margin-right:10px;
+}
+.dropdown>button:nth-child(2){
+  width:109px;
+  height:38px;
+  border:1px solid transparent;
+  border-radius:20px;
+  margin-right:10px;
+}
+
+/* 购物车下拉菜单 */
+#y-d4{
+  width:110px;
+  height:110px;
+  position: relative;
+  top:-120px;
+  left:1140px;
+}
+
+#y-d4>button{
+  width:40px;
+  height:40px;
+  border:0;
+  border-radius:20px;
+  background:white url(../../../public/img/gouwuche.png) no-repeat 10px 10px;
+  background-size:50% 50%;
+}
+
+/* 右边导航条 */
+#y-d5{
+  width:500px;
+  height:60px;
+  position:relative;
+  top:-185px;
+  left:655px;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  background:white;
+  margin-right:0;
+  border-radius:30px;
+  padding-top:10px;
+  padding-left:10px;
+}
+
+#y-d5>.dropdown{
+  width:180px;
+  height:30px;
+}
+
+#y-d5 button{
+  background:white;
+  color:#777;
+}
+#y-d5 button:hover{
+  background:#ff9b9b;
+}
+
+/* 下拉菜单上边的白云 */
+#y-d6{
+  width:200px;
+  height:30px;
+  position: relative;
+  top:-275px;
+  left:700px;
+}

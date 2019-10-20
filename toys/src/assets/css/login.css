@@ -1,0 +1,51 @@
+*{margin:0;padding:0}
+
+/* 最外层div */
+#l-d1{
+  width: 1349px;
+  height:800px;
+  background:url(../../../public/img/bg.png)
+}
+/* 图片 */
+#l-d1>img{
+  position:absolute;
+  top:50px;
+  left:650px;
+}
+
+/* 白色登录框 */
+#l-d2{
+  width:480px;
+  height:341px;
+  position:absolute;
+  top:108px;
+  left:440px;
+  background:white;
+  padding-top:20px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius:20px;
+  animation:flash 1s linear 1;
+}
+/* 白色登录框动画效果 */
+@keyframes flash{
+  0% {transform:rotateX(0deg)}
+  25% {transform:rotateX(60deg)}
+  50% {transform:rotateX(0deg)}
+  75% {transform:rotateX(-60deg)}
+  100% {transform:rotateX(0deg)}
+}
+#l-d2 input{
+  margin-bottom:30px;
+}
+#l-d2 button{
+  float:right;
+  width:70px;
+  height:33px;
+  line-height:8px;
+  background:#1ba593 url(../../../public/img/dengluicon.png) no-repeat 42px 6px;
+  background-size:20px 20px;
+  border-color:#188f7f;
+  
+}
+

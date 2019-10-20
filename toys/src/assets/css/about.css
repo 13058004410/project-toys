@@ -1,0 +1,142 @@
+#a-d1{
+  width:1349px;
+  height:668px;
+  background:#f3ecd5;
+}
+
+#a-d2{
+  width:1349px;
+  height:39px;
+  padding-left:170px;
+
+}
+
+#a-d2 a{
+  color:black;
+}
+
+#a-d21{
+  background:#f3ecd5 !important;
+}
+
+#a-d21 li:nth-child(2){
+  color:#f56262;
+}
+
+#a-d3{
+  width:1038px;
+  height:348px;
+  background:white;
+  position: relative;
+  top:20px;
+  left:155px;
+  border-radius:20px;
+  padding-top:50px;
+  padding-left:30px;
+}
+
+#a-d3 img{
+  display:block;
+  width:433px;
+  height:288px;
+  position: absolute;
+  top:30px;
+  left:580px;
+}
+
+#a-d3 p{
+  font-size:14px;
+  font-family:sans-serif;
+}
+
+/* 下边白色区域4个小div */
+  /* 最外层白色大div */
+#a-d4{
+  width:1349px;
+  height:200px;
+  background:white;
+  position: relative;
+  top:80px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding:46px 142px 0 142px;
+}
+
+/* 4个小div */
+#a-d4>div{
+  width:250px;
+  height:110px;
+  padding-top:20px;
+  border:1px solid #eee;
+  background:#eee;
+  padding-left:16px;
+  border-radius:20px;
+}
+
+/* 小div里边的第二个span */
+#a-d4>div span:nth-child(3){
+  color:#999;
+}
+
+/* 红色齿轮那个小div */
+#a-d4>div:nth-child(1)>img{
+  margin-top:10px;
+}
+#a-d4>div:nth-child(1) span:nth-child(1){
+  display:block;
+  color:red;
+  float:right;
+  margin-right:88px;
+}
+#a-d4>div:nth-child(1) span:nth-child(2){
+  display:block;
+  margin-bottom:10px;
+  float:right;
+}
+
+
+
+/* 绿色飞机那个div */
+#a-d4>div:nth-child(2)>img{
+  margin-top:8px;
+}
+#a-d4>div:nth-child(2) span:nth-child(1){
+  display:block;
+  color:#2ee0b7;
+  float:right;
+  margin-right:88px;
+}
+
+
+/* 蓝色汽车那个div */
+#a-d4>div:nth-child(3)>img{
+  margin-top:10px;
+}
+
+#a-d4>div:nth-child(3) span:nth-child(1){
+  display:block;
+  color:#489dd6;
+  float:right;
+  margin-right:88px;
+}
+
+/* 紫色轮船那个div */
+#a-d4>div:nth-child(4)>img{
+  margin-top:7px;
+}
+#a-d4>div:nth-child(4) span:nth-child(1){
+  display:block;
+  color:#7e57cc;
+  float:right;
+  margin-right:72px;
+}
+
+/* 第三级小div */
+#a-d4 div div{
+  width:120px;
+  height:50px;
+  float:right;
+  margin-right:60px;
+  margin-top:8px;
+}
